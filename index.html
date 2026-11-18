@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#214c40"><title>閱讀偵探社｜消失的最後一頁</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><small>閱讀偵探社</small><h1>消失的最後一頁</h1><p>校慶前夕，一起找回社刊的最後一頁。</p></header>
+<main><nav id="nav" aria-label="關卡進度"></nav><p id="save-status"></p><article><h2 id="title" tabindex="-1"></h2><section id="scene"></section><p id="feedback" role="status" aria-live="polite"></p><div id="actions"></div><details id="hint"><summary>需要一點提示</summary><p id="hint-text"></p></details><button id="next" class="primary">繼續調查 →</button></article><footer><button id="previous">← 上一關</button><button id="restart">重新開始整個案件</button></footer></main>
+<dialog id="restart-dialog"><h2>重新開始案件？</h2><p>這台裝置已保存的進度會清除。</p><button id="cancel-restart">繼續目前案件</button><button id="confirm-restart" class="primary">確定重新開始</button></dialog>
+<dialog id="image-dialog"><button id="close-image">關閉放大圖</button><img id="large-image" alt="放大的題目圖片"></dialog>
+<dialog id="victory-dialog" aria-labelledby="victory-title"><div class="victory-content"><p class="victory-badge">案件完成 · 六關全破</p><h2 id="victory-title">破案成功！</h2><p>你們找回了消失的最後一頁！<br>每一次觀察、討論與嘗試，都是破案的關鍵。</p><p id="victory-audio-note"></p><button id="close-victory" class="primary">閱讀最後一頁 →</button></div></dialog>
+<script src="game.js"></script>
+</body></html>
